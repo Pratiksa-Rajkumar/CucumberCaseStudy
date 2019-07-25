@@ -114,6 +114,7 @@ public class Stepdefs {
 		driver.findElement(By.xpath("/html/body/section/div/div/div[2]/div/div/div/div[2]/center/a")).click();
 		driver.findElement(By.partialLinkText("Cart")).click();
 		driver.findElement(By.xpath("//*[@id=\"cart\"]/tbody/tr/td[5]/form/input[2]")).click();
+		driver.close();
 
 	}
 
