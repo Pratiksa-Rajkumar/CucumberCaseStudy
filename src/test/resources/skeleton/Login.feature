@@ -3,7 +3,7 @@ Feature: Register, Login and Add items to cart in TestMeApp
 @Registration @regression
 Scenario: User registration in TestMeApp
 	Given User process to registration page
-	When user enters username "pratiksa33"
+	When user enters username "pratiksa35"
 	And user enters firstname "pratiksa" And lastname "Rajkumar"
 	And enters password "user123" And confirmpassword "user123"
 	And choose gender "female" 
